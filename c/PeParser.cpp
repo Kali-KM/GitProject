@@ -1,3 +1,7 @@
+/*
+Dll source code for Parsing PE file
+*/
+
 #include <Windows.h>
 #include <iostream>
 #include <cstdio>
