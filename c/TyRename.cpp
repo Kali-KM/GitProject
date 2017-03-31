@@ -58,5 +58,4 @@ void TYRename(char *Path, char *FileName)
 	strcat(NewName, FileName);
 
 	result = rename(OldName, NewName);
-	printf("NewName : %s, Result : %d\n", NewName, result);
 }
