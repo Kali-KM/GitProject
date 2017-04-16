@@ -2,6 +2,11 @@
 #include <Windows.h>
 #include <string.h>
 
+/*
+before: a[] = {"5","5"," ","4","0","3","b"} ; (string)"55 40 3b"
+after : b[] = {'\x55', '\x40', '\x3b'}
+*/
+
 int main()
 {
 	HANDLE hFile;
